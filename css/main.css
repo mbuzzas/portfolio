@@ -1,0 +1,286 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav {
+  background-color: transparent;
+  position: fixed;
+}
+
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-colored {
+  background-color: #cdcdcd;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav li {
+  margin-left: 40px;
+  color: #494C4E;
+  float: none;
+  display: inline-block;
+}
+
+.navbar-nav li a {
+  color: white;
+  font-size: 22px;
+}
+
+.navbar .nav > li > a {
+  color: white;
+}
+
+.image {
+  background-image: url('../mountains.jpeg');
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+div {
+  color: #494C4E;
+  text-align: center;
+  display: block;
+  /*border: red 1px solid;*/
+}
+
+.box {
+  height: 230px;
+}
+
+.about {
+  padding-top: 60px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.about-text {
+  width: 60%;
+  display: inline-block;
+}
+
+.about-pic {
+  width: 40%;
+  height: 300px;
+  float: right;
+  display: inline-block;
+}
+
+.about-pic img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+p {
+  text-align: left;
+  font-size: 21px;
+}
+
+h2 {
+  color: #f27768;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #b89bc9;
+  text-align: left;
+}
+
+.devicon-block {
+  margin-top: 50px;
+}
+
+.devicon {
+  font-size: 55px;
+  color: #b89bc9;
+  padding: 15px;
+}
+
+.project {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 1%;
+  float: left;
+}
+
+.project .text {
+  display: none;
+}
+
+.project1 {
+  background-image: url('../one.png');
+  background-size: cover;
+}
+
+.project1:hover {
+  background: #cdcdcd;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.project1:hover .text {
+  display: inline;
+}
+
+.project2 {
+  background-image: url('../two.png');
+  background-size: cover;
+}
+
+.project2:hover {
+  background: #cdcdcd;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.project2:hover .text {
+  display: inline;
+}
+
+.project3 {
+  background-image: url('../three.png');
+  background-size: cover;
+}
+
+.project3:hover {
+  background: #cdcdcd;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.project3:hover .text {
+  display: inline;
+}
+
+.text h3 {
+  text-align: center;
+  color: black;
+}
+
+.text p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.text .btn {
+  background-color: #b89bc9;
+  border-color: #b89bc9;
+}
+
+.contact-pic {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.contact-buttons {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.contact-pic img {
+  width: 65%;
+  border-radius: 2%;
+}
+
+#contact p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  text-align: left;
+  margin: 12px;
+}
+
+.button .link {
+  color: #b89bc9;
+}
+
+.button span {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+/*.link {
+  font-size: 2em;
+}*/
+
+.footer {
+  background-color: #cdcdcd;
+  margin-top: 30px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .box {
+    height: 450px;
+  }
+
+  .project {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .about-pic {
+    float: none;
+    width: 60%;
+  }
+
+  .box {
+    height: 640px;
+  }
+
+  .contact-pic {
+    float: none;
+    width: 80%;
+  }
+
+  .contact-buttons {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-pic {
+    height: 150px;
+    width: 75%;
+  }
+
+  .contact-pic {
+    height: 130px;
+  }
+}
